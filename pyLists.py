@@ -3,7 +3,7 @@ if __name__ == '__main__':
     list = []
     for i in range(N):
         cmd = input().split()
-        if (cmd[0] == 'insert'):
+        if cmd[0] == 'insert':
             list.insert(int(cmd[1]), int(cmd[2]))
         elif cmd[0] == 'print':
             print(list)
